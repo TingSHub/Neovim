@@ -46,6 +46,13 @@ First we'll fix copy/paste
   ```
   sudo pacman -S xsel
   ```
+- On Centos8
+
+  ```
+  yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+  yum install -y neovim python3-neovim
+  yum install -y npm
+  ```
 
 Next we need to install python support (node is optional)
 
